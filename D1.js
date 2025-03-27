@@ -223,7 +223,7 @@ console.log("----------------Esercizio 9----------------");
 const oldest = () => {
   const oldestMovie = [0];
   movies.forEach((movie) => {
-    if (movie.year < oldestMovie[o]) {
+    if (movie.year < oldestMovie[0]) {
       oldestMovie = movie;
     }
   });
